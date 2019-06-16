@@ -94,7 +94,7 @@ nav a {
     padding: 12px;
     margin-left: 38px;
     transition: background-color .7s, color .5s;
-    /* несколько свойств */
+    
 }
 
 nav a:hover {
@@ -108,11 +108,11 @@ nav a:hover {
 }
 
 .main-container>section
-/* применится только к section на первом уровне не внутри него */
+
 
 {
     padding-right: 340px;
-    /* чтобы section внизу не обтекал aside */
+    
     width: 1043px
 }
 
@@ -126,7 +126,6 @@ aside {
 
 .article-banner {
     float: left;
-    /* нам нужно чтобы текст обтекал картинку */
     margin: 0 15px 15px 0;
 }
 
@@ -153,7 +152,7 @@ article.holder {
     font-size: 14px
 }
 
-.arbottom-text p {
+.bottom-text p {
     margin-top: 10px;
     text-align: justify;
 }
